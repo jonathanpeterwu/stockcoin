@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block title %}Signup{% endblock %}
+
+
+{% block content %}
+
+	<div class="signup">
+		<div class="paywall-title">PAY <span class="w">W</span>ALL</div>
+		<div class="paywall-description">Payments Your Way. Payment Freedom</div>
+
+		<form class="form-inline" role="form" method="post" action="/beta-signup">
+			<div class="form-group">
+				<input type="email" class="form-control email" name="email" placeholder="Enter email">
+				<input type="hidden" name="location" value="{&quot;range&quot;:[1204432256,1204432895],&quot;country&quot;:&quot;US&quot;,&quot;region&quot;:&quot;CA&quot;,&quot;city&quot;:&quot;San Francisco&quot;,&quot;ll&quot;:[37.7957,-122.4209],&quot;latitude&quot;:37.7957,&quot;longitude&quot;:-122.4209}">
+			</div>
+			<a href="./send.html"
+			<button type="submit" class="btn btn-primary waitlist">Join Waitlist</button>
+			</a>
+
+		</form>
+{% endblock %}

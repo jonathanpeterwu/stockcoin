@@ -1,0 +1,9 @@
+{% extends 'layout.html' %}
+
+{% block title %}{{ wallet.name }}{% endblock %}
+
+{% block content %}
+  <h1>{{ wallet.name }}</h1>
+  <p>Pay by phone number: <a href="../pay">{{ wallet.number }}</a></p>
+  <p>{{ wallet.email }}</p>
+{% endblock %}

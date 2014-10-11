@@ -1,0 +1,47 @@
+{
+  "name": "stockcoin",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha ./test/*"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "bitcoinjs-lib": "~1.0.2",
+    "co": "3.1.0",
+    "co-body": "0.0.1",
+    "co-monk": "1.0.0",
+    "co-views": "0.2.0",
+    "commander": "~2.2.0",
+    "debug": "*",
+    "dotenv": "^0.4.0",
+    "keen.io": "0.1.2",
+    "koa": "~0.6.1",
+    "koa-compress": "1.0.7",
+    "koa-cors": "^0.0.13",
+    "koa-logger": "1.2.2",
+    "koa-ratelimit": "~1.0.3",
+    "koa-request": "^1.0.0",
+    "koa-resource-router": "0.3.3",
+    "koa-response-time": "~1.0.2",
+    "koa-route": "2.0.0",
+    "koa-static": "1.4.6",
+    "lodash": "^2.4.1",
+    "monk": "^0.9.0",
+    "redis": "~0.10.3",
+    "request": "2.40.0",
+    "swig": "~1.4.2",
+    "thunkify": "^2.1.2",
+    "underscore": "^1.6.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.16.2",
+    "supertest": "~0.8.2",
+    "should": "~2.1.1"
+  },
+  "license": "MIT"
+}
